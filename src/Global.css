@@ -1,0 +1,96 @@
+:root {
+    /*COLOR*/
+    --color-primary: #fd377e;
+    --color-primary-2: #e34981;
+    --color-secondary: #03b898;
+
+    --color-grey-1: #f8f9fa;
+    --color-grey-2: #e9ecef;
+    --color-grey-3: #868e96;
+    --color-grey-4: #212529;
+
+    /*TEXTE*/
+    --title-1-size: 28px;
+    --title-1-weight: bold;
+
+    --title-2-size: 24px;
+    --title-2-weight: bold;
+
+    --title-3-size: 20px;
+    --title-3-weight: bold;
+
+    --title-4-size: 12px;
+    --title-4-weight: bold;
+
+    --headline-size: 16px;
+    --headline-weight: Regular;
+
+    --body-size: 12px;
+    --body-weight: Regular;
+}
+
+.buttonOne {
+    width: max-content;
+    height: 48px;
+
+    font-size: var(--headline-size);
+    font-weight: Regular;
+
+    background: var(--color-primary);
+    color: #ffffff;
+
+    border-radius: 8px;
+    border: none;
+
+    cursor: pointer;
+}
+.buttonOne:hover {
+    color: var(--color-grey-1);
+    background: var(--color-primary-2);
+}
+
+.buttonTwo {
+    width: max-content;
+    height: 40px;
+
+    font-size: var(--headline-size);
+    font-weight: Regular;
+
+    background: var(--color-grey-2);
+    color: var(--color-grey-3);
+
+    border-radius: 8px;
+    border: none;
+
+    cursor: pointer;
+}
+.buttonTwo:hover {
+    background: var(--color-grey-3);
+    color: var(--color-grey-2);
+}
+.buttonTwo:focus {
+    background-color: var(--color-primary);
+    color: var(--color-grey-2);
+}
+
+/*INPUTS*/
+
+.inputsOne {
+    width: 300px;
+    height: 50px;
+
+    background: var(--color-grey-2);
+    border: none;
+    border-radius: 8px;
+
+    text-align: center;
+
+    color: var(--color-grey-4);
+
+    font-size: var(--headline-size);
+
+    outline: none;
+}
+.inputsOne::placeholder {
+    color: var(--color-grey-3);
+}

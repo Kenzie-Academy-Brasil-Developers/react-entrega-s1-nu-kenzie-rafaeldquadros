@@ -1,0 +1,75 @@
+.listaDespesas {
+    width: 95%;
+    min-height: 300px;
+    max-height: 400px;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    gap: 20px;
+
+    overflow-y: scroll;
+}
+@media (min-width: 1040px) {
+    .listaDespesas {
+        max-width: 560px;
+        max-height: 600px;
+
+        position: absolute;
+        top: 13%;
+        right: 0%;
+
+        overflow: hidden;
+        overflow-y: scroll;
+
+        margin-bottom: 40px;
+    }
+}
+.listaDespesas img {
+    width: 100%;
+    margin-top: 20px;
+}
+.listaDespesas h1 {
+    font-size: var(--title-3-size);
+    font-weight: var(--title-3-weight);
+}
+.listaDespesas li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+}
+.listaDespesas li div {
+    width: 90%;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (min-width: 700px) {
+}
+.listaDespesas span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 30%;
+    width: 90%;
+}
+.listaDespesas li button {
+    background-color: var(--color-grey-1);
+
+    border: none;
+    cursor: pointer;
+}
+.listaDespesas li h2 {
+    max-width: 50%;
+
+    overflow: hidden;
+}
